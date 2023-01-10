@@ -22,7 +22,10 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "formik": "^2.2.9",
+    "prettier": "^2.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pro-sidebar": "^1.0.0-alpha.9",
@@ -35,7 +38,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext js,jsx src/",
+    "lint:fix": "eslint --fix --ext js,jsx src/",
+    "prettier": "prettier --check \"src/**/(**.jsx|*.js|*.scss|*.css\"",
+    "prettier:fix": "prettier --write \"src/**/(**.jsx|*.js|*.scss|*.css\""
   },
   "eslintConfig": {
     "extends": [
