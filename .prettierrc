@@ -7,5 +7,5 @@
   "useTabs": false,
   "singleQuote": true,
   "printWidth": 80,
-  "jsxSingleQuote": false
+  "jsxSingleQuote": true
 }
